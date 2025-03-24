@@ -53,20 +53,13 @@ The agent combines the following three AI techniques:
 
 ## How to Run
 
-1. Clone the repository:
-
-    ```bash
-    git clone <your-repo-link>
-    cd <repo-directory>
-    ```
-
-2. Run the agent:
+1. Run the agent:
 
     ```bash
     python general_game_runner.py -g Splendor -a agents.t_039.myTeam,agents.t_039.minimax
     ```
 
-3. Replace `agents.t_039.minimax` with other agents for testing if desired.
+2. Replace `agents.t_039.minimax` with other agents for testing if desired.
 
 ---
 
