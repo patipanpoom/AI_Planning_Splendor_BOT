@@ -6,15 +6,18 @@ This project was completed as part of **COMP90054: AI Planning for Autonomy** at
 
 Splendor is a resource management and strategy game. In this project, I developed an AI agent capable of making optimal decisions based on the game state, opponent behavior, and available actions.
 
-My custom agent implementation is located in:
+### My custom agent implementation is located in:
 
 agents/t_039/myTeam.py
 
-You can run the agent using:
+### You can run the agent using:
+
+```bash
+python general_game_runner.py -g Splendor -a agents.t_039.myTeam,agents.t_039.minimax
+```
 
 The second agent can be replaced with any other agent for testing purposes.
 
-python general_game_runner.py -g Splendor -a agents.t_039.myTeam,agents.t_039.minimax
 ---
 
 ## AI Techniques Used
